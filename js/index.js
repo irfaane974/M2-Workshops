@@ -72,7 +72,7 @@ app.post("/update-workshop", function (req, res) {
     })
 });
 
-/*
+
 app.get("/remove-workshop/:name", function (req, res) {
     console.log("Remove in progress - GET");
     const name = req.params.name;
@@ -87,7 +87,7 @@ app.post("/remove-workshop", function (req, res) {
     console.log("Remove in progress - POST");
     res.render("remove-workshop");
 });
-*/
+
 
 app.listen(3000, function () {
   console.log("Workshop app listening on port 3000!");
