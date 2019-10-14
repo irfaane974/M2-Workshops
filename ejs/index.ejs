@@ -18,7 +18,11 @@
     <li class="media my-4">
         <div class="media-body">
             <h5 class="mt-0 mb-1"><%= workshop.name %></h5>
-            <%= workshop.description %>        </div>        
+            <%= workshop.description %> 
+            <a type="button" href="/update-workshop/<%= workshop.name %>" class="btn btn-warning btn-lg">Update</a>
+            <!--<a type="button" href="/remove-workshop/<%= workshop.name %>" class="btn btn-danger btn-lg">Remove</a>-->
+
+        </div>        
     </li>
 <% }); %>
 </ul>
